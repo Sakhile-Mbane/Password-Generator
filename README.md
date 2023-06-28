@@ -1,4 +1,4 @@
-#Password Manager
+Password Manager
 This is a simple password manager project written in Python. It allows you to generate random passwords for different platforms and store them in a SQLite database. The project is designed to be run on the command line.
 
 Features
@@ -36,7 +36,6 @@ This project is intended for educational purposes only. It is not intended for s
 Acknowledgments
 This project was developed using the Python programming language
 
-network error
 
 
 
