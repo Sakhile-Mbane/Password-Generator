@@ -1,44 +1,59 @@
 # Password Manager
-This is a simple password manager project written in Python. It allows you to generate random passwords for different platforms and store them in a SQLite database. The project is designed to be run on the command line.
+
+This is a simple password manager project that allows you to generate and store passwords for different platforms and usernames. It provides a command-line interface (CLI) to generate passwords, store them in a database, and retrieve the most recently stored password.
 
 ## Features
-Generate random passwords of specified length.
-Assign a platform or service name to each generated password.
-Store passwords and associated platforms in a SQLite database.
-Retrieve and display the most recently stored password.
 
-## Requirements
-Python 3.x
+- Generate random passwords with customizable length.
+- Store passwords along with their corresponding platforms and usernames in a SQLite database.
+- Retrieve and display the most recently stored password.
+- Option to update the password and username for a specific platform.
 
-SQLite3 module
+## Installation
+
+Clone the repository
+
+`git clone https://github.com/your-username/password-manager.git`
+
+
+## Install the required dependencies:
+
+`pip install -r requirements.txt`
+
+Create a database file named passwords.db in the project directory:
+
+`touch passwords.db`
 
 ## Usage
-Clone the repository or download the project files.
-Install the required SQLite3 module if not already installed
+Open a terminal and navigate to the project directory.
 
-### pip install sqlite3
+Run the script:
 
-Open a terminal or command prompt and navigate to the project directory.
+`python password_manager.py`
 
-Run the password_manager.py file:
-Copy code
-python password_manager.py
+Usage
+Open a terminal and navigate to the project directory.
 
-Follow the prompts to generate passwords, enter the platform names, and store them in the database.
-The most recently stored password will be displayed after storing.
+Run the script:
 
-# Database
-The passwords and their associated platforms are stored in a SQLite database named passwords.db. The database file will be created automatically if it doesn't exist.
+`python password_manager.py`
 
-# License
-This project is licensed under the Sakhile Mbane.
+Follow the prompts to generate and store passwords, retrieve passwords by platform, and update passwords and usernames.
+## Technologies Used
+- Python
+- SQLite
+- Streamlit (for the Streamlit app version)
 
-# Contribution
-Contributions to this project are welcome. Feel free to open issues and submit pull requests to suggest improvements, report bugs, or add new features.
+## Contributions
+Contributions to this project are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
-# Disclaimer
-This project is intended for educational purposes only. It is not intended for storing sensitive or real-world passwords. Use it at your own risk.
+## License
+This project is licensed under Sakhile Mbane.
 
-# Acknowledgments
-This project was developed using the Python programming language
+
+
+
+
+
+
 
