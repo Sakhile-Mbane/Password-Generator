@@ -13,7 +13,7 @@ This is a simple password manager project that allows you to generate and store 
 
 Clone the repository
 
-`git clone https://github.com/your-username/password-manager.git`
+`git clone https://github.com/sakhile-mbane/password-manager.git`
 
 
 ## Install the required dependencies:
